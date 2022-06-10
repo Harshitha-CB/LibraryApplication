@@ -120,6 +120,9 @@
 		5E79FED02828F4A7009457AA /* library overview */ = {
 			isa = PBXGroup;
 			children = (
+				5E985B0628535F10009CE771 /* Controller */,
+				5E985B0528535F09009CE771 /* View */,
+				5E985B0428535F01009CE771 /* model */,
 				5E55FD212832376400F9B5E7 /* OnboardingScreen */,
 				5E79FED12828F4A7009457AA /* AppDelegate.swift */,
 				5E79FED32828F4A7009457AA /* SceneDelegate.swift */,
@@ -154,6 +157,27 @@
 				5E32DD8C282F8A1F00B11D55 /* DB_BorrowReturnList.swift */,
 			);
 			path = "library overview";
+			sourceTree = "<group>";
+		};
+		5E985B0428535F01009CE771 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5E985B0528535F09009CE771 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E985B0628535F10009CE771 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
