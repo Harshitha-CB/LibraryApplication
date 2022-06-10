@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Books" representedClassName="Books" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="bookname" optional="YES" attributeType="String"/>
+        <attribute name="publication_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Borrow_Return" representedClassName="Borrow_Return" syncable="YES" codeGenerationType="class">
+        <attribute name="bookname" optional="YES" attributeType="String"/>
+        <attribute name="borrowDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="returnDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Memberslist" representedClassName="Memberslist" syncable="YES" codeGenerationType="class">
+        <attribute name="card_num" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="card_num"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Books" positionX="-54" positionY="0" width="128" height="74"/>
+        <element name="Borrow_Return" positionX="-54" positionY="45" width="128" height="74"/>
+        <element name="Memberslist" positionX="-63" positionY="-18" width="128" height="59"/>
+    </elements>
+</model>
